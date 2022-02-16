@@ -5,8 +5,7 @@ const NavBar = () => (
     <nav>
         <ul>
             <li>
-                <Link to="about">about</Link>
-                <Link to="join">join</Link>
+                <Link to="about">click here</Link>
             </li>
         </ul>
     </nav>

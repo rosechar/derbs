@@ -21,7 +21,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
@@ -35,4 +35,27 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+#emitter {
+  visibility: hidden;
+  background-color: #222;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 40%;
+  left: 0%;
+}
+.dot-container {
+  position:absolute;
+  left:0;
+  top:0;
+  overflow:visible;
+  z-index:5000;
+  pointer-events:none;
+}
+.dot {
+  position: absolute;
+  pointer-events: none; /*performance optimization*/
 }
