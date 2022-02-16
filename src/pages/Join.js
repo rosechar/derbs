@@ -11,8 +11,8 @@ const Join = () => {
       return (
         <form onSubmit={onSubmit}>
           <label>
-            Name:
-            <input type="text" value={name} />
+            do you ily back:
+            <input type="checkbox" value={name} onChange={(e) => setName(e.target.value)}/>
           </label>
           <input type="submit" value="Submit" />
         </form>
